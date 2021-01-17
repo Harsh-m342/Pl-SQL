@@ -1,0 +1,6 @@
+Client server model:
+Many databases applications are built using client-server model. The program itself relies on client machine and sends requests to a database server for information.
+
+The requests are done with SQL. Typically for each SQL query it results in many network trips.
+
+However many SQL statements can be bundled together into one PL/SQL block and sent to server as a single unit.
